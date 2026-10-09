@@ -1,0 +1,237 @@
+{
+  "source_apk": "C:\\Users\\yusuf\\Downloads\\Metin2Mobil-demo-v0.75.0.apk",
+  "apk_bytes": 15372895,
+  "apk_sha256": "89cbe8e5d7fc7b41b6b42b39d0f402b5042f84e325eaa4c26d40dabc551992f5",
+  "package": "com.averos2.mobile",
+  "version_name": "0.75.0",
+  "version_code": "75",
+  "min_sdk": "26",
+  "target_sdk": "35",
+  "max_sdk": null,
+  "main_activity": "com.sancak2.client.DownloadActivity",
+  "activities": [
+    "com.sancak2.client.DownloadActivity",
+    "com.sancak2.client.Sancak2Activity"
+  ],
+  "services": [
+    "com.sancak2.client.KeepAliveService"
+  ],
+  "receivers": [],
+  "providers": [
+    "com.sancak2.client.ApkProvider"
+  ],
+  "permissions": [
+    "android.permission.VIBRATE",
+    "android.permission.INTERNET",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.WAKE_LOCK",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.REQUEST_INSTALL_PACKAGES",
+    "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+  ],
+  "libraries": [],
+  "dex_count": 1,
+  "class_count": 36,
+  "classes": [
+    "Lcom/sancak2/client/ApkProvider;",
+    "Lcom/sancak2/client/DownloadActivity$1;",
+    "Lcom/sancak2/client/DownloadActivity$2;",
+    "Lcom/sancak2/client/DownloadActivity$3;",
+    "Lcom/sancak2/client/DownloadActivity$4;",
+    "Lcom/sancak2/client/DownloadActivity$5;",
+    "Lcom/sancak2/client/DownloadActivity$6;",
+    "Lcom/sancak2/client/DownloadActivity$7;",
+    "Lcom/sancak2/client/DownloadActivity;",
+    "Lcom/sancak2/client/KeepAliveService;",
+    "Lcom/sancak2/client/M2WebBrowser$$ExternalSyntheticLambda0;",
+    "Lcom/sancak2/client/M2WebBrowser$$ExternalSyntheticLambda1;",
+    "Lcom/sancak2/client/M2WebBrowser$$ExternalSyntheticLambda2;",
+    "Lcom/sancak2/client/M2WebBrowser$$ExternalSyntheticLambda3;",
+    "Lcom/sancak2/client/M2WebBrowser$$ExternalSyntheticLambda4;",
+    "Lcom/sancak2/client/M2WebBrowser$1;",
+    "Lcom/sancak2/client/M2WebBrowser$2$1;",
+    "Lcom/sancak2/client/M2WebBrowser$2;",
+    "Lcom/sancak2/client/M2WebBrowser$GamePopup;",
+    "Lcom/sancak2/client/M2WebBrowser;",
+    "Lcom/sancak2/client/R$bool;",
+    "Lcom/sancak2/client/R$color;",
+    "Lcom/sancak2/client/R$drawable;",
+    "Lcom/sancak2/client/R$mipmap;",
+    "Lcom/sancak2/client/R$string;",
+    "Lcom/sancak2/client/R;",
+    "Lcom/sancak2/client/Sancak2Activity$1;",
+    "Lcom/sancak2/client/Sancak2Activity$2;",
+    "Lcom/sancak2/client/Sancak2Activity$3;",
+    "Lcom/sancak2/client/Sancak2Activity$4;",
+    "Lcom/sancak2/client/Sancak2Activity$5;",
+    "Lcom/sancak2/client/Sancak2Activity$InputView$1;",
+    "Lcom/sancak2/client/Sancak2Activity$InputView$Conn;",
+    "Lcom/sancak2/client/Sancak2Activity$InputView;",
+    "Lcom/sancak2/client/Sancak2Activity$ShowKeyboardAttempt;",
+    "Lcom/sancak2/client/Sancak2Activity;"
+  ],
+  "native_files": [
+    {
+      "path": "lib/arm64-v8a/libsancak2client.so",
+      "bytes": 13630224,
+      "sha256": "8af3b18520e5acd0ef1f5e384b147e1cefe3c4faca20b0cd1df774ff7dbeb6f1",
+      "printable_string_count": 53029
+    }
+  ],
+  "signing_certificates": [
+    {
+      "sha256": "0df4b0cc29bc86e9e3c13e59815559a058f34395f9a68116b12944a5e579373f",
+      "subject": "Common Name: Metin2 Mobile, Organizational Unit: Mobilserverler, Organization: Mobilserverler.com, Locality: Istanbul, Country: TR",
+      "issuer": "Common Name: Metin2 Mobile, Organizational Unit: Mobilserverler, Organization: Mobilserverler.com, Locality: Istanbul, Country: TR",
+      "serial": "15088853104431087590"
+    }
+  ],
+  "archive_entries": [
+    {
+      "name": "META-INF/com/android/build/gradle/app-metadata.properties",
+      "compressed_bytes": 51,
+      "uncompressed_bytes": 56,
+      "sha256": "e5becd9ca5472dedb2578fddbefc65281c4543ab63a001827f7ad7ebb873d005"
+    },
+    {
+      "name": "META-INF/version-control-info.textproto",
+      "compressed_bytes": 48,
+      "uncompressed_bytes": 46,
+      "sha256": "38d377afa76b6364e5bf551cf4ffec1a881a46102a0047f523fbf148e0df6928"
+    },
+    {
+      "name": "classes.dex",
+      "compressed_bytes": 28187,
+      "uncompressed_bytes": 56700,
+      "sha256": "af725df1646d3a40e313d9cb600feed0e5a15683436c2111561883b31077669c"
+    },
+    {
+      "name": "lib/arm64-v8a/libsancak2client.so",
+      "compressed_bytes": 13630224,
+      "uncompressed_bytes": 13630224,
+      "sha256": "8af3b18520e5acd0ef1f5e384b147e1cefe3c4faca20b0cd1df774ff7dbeb6f1"
+    },
+    {
+      "name": "AndroidManifest.xml",
+      "compressed_bytes": 1918,
+      "uncompressed_bytes": 6132,
+      "sha256": "63d64b150442c4d9073d42debed2f58ea2cf88e2140d97c96db0fe9b59a0f1ff"
+    },
+    {
+      "name": "res/0K.xml",
+      "compressed_bytes": 221,
+      "uncompressed_bytes": 448,
+      "sha256": "25e7bc1e91381d94b4c47aeb22b789cccb9dc0420b98f2b37734cbf003778567"
+    },
+    {
+      "name": "res/8c.png",
+      "compressed_bytes": 13167,
+      "uncompressed_bytes": 13167,
+      "sha256": "b716c83f3358d59d499daee3c61f17a6d97e5a0a8440b7aaf48583115979b62f"
+    },
+    {
+      "name": "res/9w.png",
+      "compressed_bytes": 6385,
+      "uncompressed_bytes": 6385,
+      "sha256": "90545392a9066a1a28e7ab751f180d036e938e839530150b6b35003b43b39d2c"
+    },
+    {
+      "name": "res/BW.xml",
+      "compressed_bytes": 222,
+      "uncompressed_bytes": 448,
+      "sha256": "470321570243b48666aef6edefb3c091cef4d626b588f4f08faefde4b56ce410"
+    },
+    {
+      "name": "res/Em.png",
+      "compressed_bytes": 66204,
+      "uncompressed_bytes": 66204,
+      "sha256": "fd61a3bb61e26afc76c3f42a5b8e7cc624a746649483471dcbe8f5feaab93cd2"
+    },
+    {
+      "name": "res/FS.png",
+      "compressed_bytes": 22226,
+      "uncompressed_bytes": 22226,
+      "sha256": "5ae506691bc0864a3553db1f763c180bba54d46af5fe10ed96747245e2d02c35"
+    },
+    {
+      "name": "res/Gc.png",
+      "compressed_bytes": 77827,
+      "uncompressed_bytes": 77827,
+      "sha256": "376fd4f64d1fd4d2c4f3c1789f20d4d713675af3df0862eccd71a1d17ca6ae85"
+    },
+    {
+      "name": "res/Lf.png",
+      "compressed_bytes": 139603,
+      "uncompressed_bytes": 139603,
+      "sha256": "2829a5bc43360b9deebefb1138b38ad073a91f0eaac99216d564006811ae158b"
+    },
+    {
+      "name": "res/QZ.png",
+      "compressed_bytes": 18992,
+      "uncompressed_bytes": 18992,
+      "sha256": "1ae9a6558882d9de3f953f7144b4c5e2a1a106ed565eb70b83728226d0bbbd46"
+    },
+    {
+      "name": "res/RJ.png",
+      "compressed_bytes": 46219,
+      "uncompressed_bytes": 46219,
+      "sha256": "97366aa37add4a1a44b08e80ebf979137e3417d872974477fe4a7b0aae3e6935"
+    },
+    {
+      "name": "res/_L.png",
+      "compressed_bytes": 865578,
+      "uncompressed_bytes": 865578,
+      "sha256": "bb57a13fb07d480e11f6836d22ff4f043f63d56d7cd0476e7de4371c954f9428"
+    },
+    {
+      "name": "res/as.png",
+      "compressed_bytes": 237293,
+      "uncompressed_bytes": 237293,
+      "sha256": "3a94d7af519aeffeecea48540c12f5d0e9ad9d2572f4ca2e594faa64fcab4983"
+    },
+    {
+      "name": "res/fO.png",
+      "compressed_bytes": 46219,
+      "uncompressed_bytes": 46219,
+      "sha256": "97366aa37add4a1a44b08e80ebf979137e3417d872974477fe4a7b0aae3e6935"
+    },
+    {
+      "name": "res/o-.png",
+      "compressed_bytes": 77827,
+      "uncompressed_bytes": 77827,
+      "sha256": "376fd4f64d1fd4d2c4f3c1789f20d4d713675af3df0862eccd71a1d17ca6ae85"
+    },
+    {
+      "name": "res/wb.png",
+      "compressed_bytes": 22226,
+      "uncompressed_bytes": 22226,
+      "sha256": "5ae506691bc0864a3553db1f763c180bba54d46af5fe10ed96747245e2d02c35"
+    },
+    {
+      "name": "res/yn.png",
+      "compressed_bytes": 13167,
+      "uncompressed_bytes": 13167,
+      "sha256": "b716c83f3358d59d499daee3c61f17a6d97e5a0a8440b7aaf48583115979b62f"
+    },
+    {
+      "name": "res/zR.png",
+      "compressed_bytes": 6385,
+      "uncompressed_bytes": 6385,
+      "sha256": "90545392a9066a1a28e7ab751f180d036e938e839530150b6b35003b43b39d2c"
+    },
+    {
+      "name": "res/zr.png",
+      "compressed_bytes": 39401,
+      "uncompressed_bytes": 39401,
+      "sha256": "4b3a4d10a5ffa8f6f300856c9aaa494514ff41f5f50e9b16bdf2a237ac02c69a"
+    },
+    {
+      "name": "resources.arsc",
+      "compressed_bytes": 2412,
+      "uncompressed_bytes": 2412,
+      "sha256": "d34d83ee5e8ca505b737a8e394f3ffbb8c8ee1d682b49ad9bb8c2c80c383483a"
+    }
+  ],
+  "decompile_errors": []
+}

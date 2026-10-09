@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="75" android:versionName="0.75.0" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" package="com.averos2.mobile" platformBuildVersionCode="36" platformBuildVersionName="16">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+  <uses-feature android:glEsVersion="0x00030000" android:required="true"/>
+  <uses-feature android:name="android.hardware.touchscreen" android:required="true"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+  <application android:label="@7F050000" android:icon="@7F040000" android:hasCode="true" android:allowBackup="false" android:hardwareAccelerated="true" android:supportsRtl="false" android:isGame="true" android:extractNativeLibs="false" android:usesCleartextTraffic="true" android:roundIcon="@7F040002" android:appCategory="0" android:enableOnBackInvokedCallback="false">
+    <activity android:theme="@android:0103000A" android:label="@7F050000" android:name="com.sancak2.client.Sancak2Activity" android:exported="true" android:launchMode="2" android:screenOrientation="0" android:configChanges="0x40003FFF" android:windowSoftInputMode="0x00000033" android:resizeableActivity="false">
+      <meta-data android:name="android.app.lib_name" android:value="sancak2client"/>
+    </activity>
+    <activity android:theme="@android:0103000A" android:label="@7F050000" android:name="com.sancak2.client.DownloadActivity" android:exported="true" android:launchMode="2" android:screenOrientation="0" android:configChanges="0x000004A0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <provider android:name="com.sancak2.client.ApkProvider" android:exported="false" android:authorities="com.averos2.mobile.apk" android:grantUriPermissions="true"/>
+    <service android:name="com.sancak2.client.KeepAliveService" android:exported="false" android:stopWithTask="true" android:foregroundServiceType="0x40000000">
+      <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Online game session: keeps the game server connection alive while the app is in background"/>
+    </service>
+  </application>
+</manifest>

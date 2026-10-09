@@ -1,0 +1,9 @@
+# URETILDI: tools/oyuncukart/bake_oyuncukart.py - ELLE DUZENLEME. Dokular: mobile/ui/oyk/ (fiziksel px, B = 1.903546)
+B = 1.9035460992907804		# fiziksel px / tasarim px (ZOOM dahil)
+ZOOM = 1.1
+LBL = {'lbl_whisper_n.png': (95, 32), 'lbl_exchange_n.png': (73, 32), 'lbl_exchange_o.png': (73, 32), 'lbl_dice_n.png': (39, 32), 'lbl_dice_o.png': (39, 32), 'lbl_fight_r.png': (66, 32), 'lbl_accept_r.png': (125, 32), 'lbl_avenge_r.png': (79, 32), 'lbl_emotion_n.png': (92, 32), 'lbl_friend_n.png': (128, 32), 'lbl_party_n.png': (119, 32), 'lbl_party_leave_n.png': (140, 32), 'lbl_party_kick_n.png': (138, 32), 'lbl_guild_n.png': (127, 32), 'lbl_equip_n.png': (88, 32), 'lbl_party_join_n.png': (112, 32), 'yakin_degil.png': (97, 29)}
+BTN_W = {'whisper': 64, 'exchange': 58, 'dice': 58, 'fight': 58, 'accept': 79, 'avenge': 58, 'emotion': 62, 'friend': 81, 'party': 76, 'party_leave': 87, 'party_kick': 86, 'guild': 81, 'equip': 60, 'party_join': 73}
+IC = {'whisper': {'n': 'ic_whisper_n.png'}, 'exchange': {'n': 'ic_exchange_n.png', 'o': 'ic_exchange_o.png'}, 'dice': {'n': 'ic_dice_n.png', 'o': 'ic_dice_o.png'}, 'fight': {'n': 'ic_fight_r.png'}, 'accept': {'n': 'ic_accept_r.png'}, 'avenge': {'n': 'ic_avenge_r.png'}, 'emotion': {'n': 'ic_emotion_n.png'}, 'friend': {'n': 'ic_friend_n.png'}, 'party': {'n': 'ic_party_n.png'}, 'party_leave': {'n': 'ic_party_leave_n.png'}, 'party_kick': {'n': 'ic_party_kick_n.png'}, 'guild': {'n': 'ic_guild_n.png'}, 'equip': {'n': 'ic_equip_n.png'}, 'party_join': {'n': 'ic_party_join_n.png'}}
+IC_PX = 46
+FLAG_PAD = 6
+AYRAC_W = 240

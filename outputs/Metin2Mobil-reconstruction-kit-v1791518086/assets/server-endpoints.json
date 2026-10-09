@@ -1,0 +1,14 @@
+{
+  "source": "unpacked/root/serverinfo.py",
+  "server_name": "Metin2Mobile",
+  "host": "185.169.55.31",
+  "auth_tcp": 11002,
+  "channels": {
+    "CH1": 12002,
+    "CH2": 12102,
+    "CH3": 12202,
+    "CH4": 12302
+  },
+  "mark_tcp": 12002,
+  "note": "Recovered client configuration only; the emulator never connects to this host."
+}

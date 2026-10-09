@@ -1,0 +1,602 @@
+[
+  {
+    "path": "mobile_root/bayrakveri.py",
+    "bytes": 10115,
+    "sha1": "4c4fdf09033bb0a4b31820f7ca1881505b324814",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/carkgeom.py",
+    "bytes": 1398,
+    "sha1": "6d0743c260172a7ffa4e12854f405d61aa3411c9",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/carkveri.py",
+    "bytes": 934,
+    "sha1": "e5fb12b6e3de09eff95d1ff992dad91bc5c6398d",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/ceviri.py",
+    "bytes": 4414,
+    "sha1": "8e4f7b8318c02f1dced070f0986101bf4a0e2063",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/cevirien.py",
+    "bytes": 215526,
+    "sha1": "af1180cfc20903210f5d260b229a90dc2ce33e21",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/dil.py",
+    "bytes": 3808,
+    "sha1": "bffbd8e544bbeff6583ca60296f32c7093aeb1fc",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/ejderveri.py",
+    "bytes": 1755,
+    "sha1": "4b063b894dcdaf1e4b1928de2afad257a6d4c47a",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/expkuregeom.py",
+    "bytes": 933,
+    "sha1": "e5412f150cf379834a06daaa693e7868c803fac3",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/fishingbot.py",
+    "bytes": 13217,
+    "sha1": "ab9cb9f4cc3241ce258c95d28fff07731545cc9a",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/game.py",
+    "bytes": 115290,
+    "sha1": "fe35533c17b8f71f977f93f1d5156a2fc8355c4f",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/interfacemodule.py",
+    "bytes": 73461,
+    "sha1": "d95d8d409022f1d4e1de98f37be1e1f85d44b0fd",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/introcreate.py",
+    "bytes": 25444,
+    "sha1": "0a6f37e1f17fdb2566637fbefd107f0bb47dd6b0",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/introempire.py",
+    "bytes": 14851,
+    "sha1": "6dc9b2ee6078553755cadb591c48f73b65a65a39",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/introloading.py",
+    "bytes": 15036,
+    "sha1": "7bca4fa92988cae43b5489b3d42a2c26eedc293a",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/intrologin.py",
+    "bytes": 54835,
+    "sha1": "e3d71cfc8cd46a07015c7298ee94e6956e09a5a9",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/introselect.py",
+    "bytes": 25411,
+    "sha1": "d075d7235f32021bd57c4d3f1e4d45d0410fa9e5",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/localeinfo.py",
+    "bytes": 34720,
+    "sha1": "f98514133f36eadc89e06489f0c0457b7d932fcc",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobilebigmapgeom.py",
+    "bytes": 3319,
+    "sha1": "e00d90e1830243561000448c5853b9b4b86a653d",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobilebigmapgeomk.py",
+    "bytes": 1289,
+    "sha1": "d56ee4f16ebfbb280be4fe9e19e7118ac70ec67f",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobileloadingskin.py",
+    "bytes": 863,
+    "sha1": "281d16c9776ce42d0dc21b8d1d9580699315b1e3",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobileloginskin.py",
+    "bytes": 2883,
+    "sha1": "17ca1996ec5d546ce02597654d9830e234054c3a",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobileminimapgeom.py",
+    "bytes": 1045,
+    "sha1": "ee6e22482f32a6168588ec94576274901bb07acb",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/mobilestatusgeom.py",
+    "bytes": 1237,
+    "sha1": "6542178da662c6d7c59de6a997519af3961ea14d",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/paginabonusuri.py",
+    "bytes": 9278,
+    "sha1": "1ba2a555f99fc1ced3a21257db13a868f5b2baae",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/serverinfo.py",
+    "bytes": 3130,
+    "sha1": "82747a2ad82f535095fc6f1eeca96eb49264bb82",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/ui.py",
+    "bytes": 163853,
+    "sha1": "cf4bdc5a3a90dec1a2c72801aa65e141f4a0a2be",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiaktifetki.py",
+    "bytes": 42464,
+    "sha1": "d9723109d808d32566248b0caafa7e8a7b97da4f",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiaktifetkitablo.py",
+    "bytes": 2830,
+    "sha1": "42669fa0e38c3332a0682bcaf98a902cf7cf835e",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiattachbonus.py",
+    "bytes": 8631,
+    "sha1": "e9ec82ae44122076246ee9d18a534de8724c55c5",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiauto.py",
+    "bytes": 59011,
+    "sha1": "9dac2de65bd521e693ef7ec4b3251b7c57583ad0",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uibayrak.py",
+    "bytes": 27459,
+    "sha1": "773916996be6c9ab53c900816bb3851bb249a908",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uibeceriduzen.py",
+    "bytes": 4068,
+    "sha1": "50840128f2fa4bf6f8fd808aec1ad1fe2f28a89c",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uibuyukharita.py",
+    "bytes": 48440,
+    "sha1": "bda95de26873c97da826ec9e0fde1f1ec9925893",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uicards.py",
+    "bytes": 13054,
+    "sha1": "24ed27e23bba5c742ef45856e661f441005b68d9",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uicark.py",
+    "bytes": 52316,
+    "sha1": "49e0452ec9137b8e4e09fab6d0140790094670d5",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uicharacter.py",
+    "bytes": 119192,
+    "sha1": "185cdb899ff027b0538a709ca9f721d3cb9a5c57",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uicharacterdetails.py",
+    "bytes": 18997,
+    "sha1": "adfd37f3e5660fa502bf33fc7f1b7e6fc50cca23",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uichat.py",
+    "bytes": 55886,
+    "sha1": "4386eb797bdffe37b2086b1ce26675ee845e13de",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uichestdrop.py",
+    "bytes": 8658,
+    "sha1": "77296ed62fe39413c0a506121aaf7142c079f42f",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uicommon.py",
+    "bytes": 31732,
+    "sha1": "a8e1d8ff567f0e01497b3273ceeb35b0f023c437",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uidil.py",
+    "bytes": 12971,
+    "sha1": "785e3a9a29ac36460c7ef8743e86e3d8a473acfa",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiejder.py",
+    "bytes": 48038,
+    "sha1": "8ad521669cf5761f4d086d20a64d2e8b3b6425e1",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiemojiwheel.py",
+    "bytes": 6782,
+    "sha1": "7ca3882502257088bd548c976ab0c00516a1b51b",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uietkinlik.py",
+    "bytes": 29536,
+    "sha1": "1e7179acc57ab3cbb44632587fc945bcb9661fda",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uietkinlikzemin.py",
+    "bytes": 563,
+    "sha1": "44316ae51914f214b7f232a96582feebb96cef8b",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiexchange.py",
+    "bytes": 8391,
+    "sha1": "8798a5688480f05a2ba1282c7ff356c89fa02785",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiexpkure.py",
+    "bytes": 33526,
+    "sha1": "8c7a9a840183dd3e133a1cd5bd85f06ce6b693fd",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uigamebutton.py",
+    "bytes": 4155,
+    "sha1": "cc44c1c6dcc489e2d47c2df2c2afffb5dcdcc034",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uigameoption.py",
+    "bytes": 26104,
+    "sha1": "b039b03fe0e4da33dfc9fc14651004d4f7756e5e",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uigrafik.py",
+    "bytes": 53432,
+    "sha1": "4e9de202f085a21be89af5a2d9fdd4532641aec9",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uihedefkarti.py",
+    "bytes": 45071,
+    "sha1": "e4379f6f42af7b4f1ce47e17881497f36feb3309",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiinventory.py",
+    "bytes": 85808,
+    "sha1": "746e33582775d779261acd1450c0b7658c445c2c",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiisinlanma.py",
+    "bytes": 74888,
+    "sha1": "a04acc032c463d96e1a5922522cf0ee9300d87d2",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uikarakterveri.py",
+    "bytes": 23012,
+    "sha1": "1cd833f30fab3e85988027d1dde4ed39a3682010",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimenu.py",
+    "bytes": 4135,
+    "sha1": "e26b3b5ec500f495d6bf2a02179a6148cf157324",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimessenger.py",
+    "bytes": 29932,
+    "sha1": "e413d887b87472fb0c3d93391b91641ac0d49663",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiminimap.py",
+    "bytes": 21488,
+    "sha1": "cfcc89d6b9969338560825ec4cbbd5a11e4ec1ef",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiminimaphud.py",
+    "bytes": 22549,
+    "sha1": "735bf03efaac0815bd5684d1d8f07745631859e4",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimobilehud.py",
+    "bytes": 33110,
+    "sha1": "2d26cf95084d5e32b8ef48fb1508713664c5a135",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimobilelayout.py",
+    "bytes": 23027,
+    "sha1": "cb52dc220cda186cce675665a92eacf79f64c034",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimobileloading.py",
+    "bytes": 8990,
+    "sha1": "590f05fad601aca353932db2aeddc945bb624eba",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimobilelogin.py",
+    "bytes": 38054,
+    "sha1": "31046feee3aa3dcf8dfee74f5339677728ae8d6b",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uimobilestatus.py",
+    "bytes": 20209,
+    "sha1": "ce8121b4d1d5a1a05f0522910b8ae13ce8407249",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiofflineshop.py",
+    "bytes": 52745,
+    "sha1": "225d2ab0b142f44c587d3f32cd4838a6080ab9f8",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uioyuncukartveri.py",
+    "bytes": 1561,
+    "sha1": "fc0a9b0b4ef7c2825a3aaf206b72467b097138b6",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uioyuncupaneli.py",
+    "bytes": 25090,
+    "sha1": "b5c67056db3a4cb70b5d4a2519090ec9f1b0bf24",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiparty.py",
+    "bytes": 24760,
+    "sha1": "3d25866508f90674c8e8e049f242647e6f3e7281",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uipazarbildirim.py",
+    "bytes": 8855,
+    "sha1": "ae39571bdf4bc3461779e6ef60eaf9c8044804fe",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiquest.py",
+    "bytes": 26037,
+    "sha1": "e805a530030cc057f0d1c64c645a96a51ccd69c3",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uisafebox.py",
+    "bytes": 23023,
+    "sha1": "335cf93e05fc569b3da8d3eb3d732330e7f14e3f",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscriptlocale.py",
+    "bytes": 3125,
+    "sha1": "f7da28ab8e1a566511985a97171700e62e244464",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiselectitem.py",
+    "bytes": 3911,
+    "sha1": "a809806c08cf4b05a941c609f9c938ff4bc645a2",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uishop.py",
+    "bytes": 20993,
+    "sha1": "0eb77393121ec6e0183303863c9ada3f5cef3726",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uishopsearch.py",
+    "bytes": 44992,
+    "sha1": "ff74afd312c1a5e34b4c0ca45ba97a974a023acc",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uispecialstorage.py",
+    "bytes": 19951,
+    "sha1": "8b7bff3f40024435fa3c595ac6921dae906b9b08",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiswitchbonus.py",
+    "bytes": 13260,
+    "sha1": "d9350fdf2ba78fc205d9f5b457c03d1aff9f0d49",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uisystem.py",
+    "bytes": 7129,
+    "sha1": "5bd0a88e3a8ac900d4f010f0b2b2bae8fe6250a4",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uitapfx.py",
+    "bytes": 11766,
+    "sha1": "b8781f7d6a45482ca4e6e415dd7629bc6fbfe8b0",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uitarget.py",
+    "bytes": 42677,
+    "sha1": "de61dadbff4f3c03783e69c94c1afde733519cf3",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uitaskbar.py",
+    "bytes": 56785,
+    "sha1": "6becfe768398499e0aedac8579819a463e128a06",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uitooltip.py",
+    "bytes": 99483,
+    "sha1": "b21a7417588059a52dcf3f3a1763aa4d3e044a0b",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uitoplusat.py",
+    "bytes": 30694,
+    "sha1": "cf520308731449ad7eab13b59bd6119adfe68c36",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiwhisper.py",
+    "bytes": 10439,
+    "sha1": "1e4425d760d5ecce7f15473e8cd0112ec09ca80c",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uizindangiris.py",
+    "bytes": 32446,
+    "sha1": "c30afdeea6e7865027a5245da1f0db6cc81915b9",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/ui_offline.py",
+    "bytes": 227137,
+    "sha1": "e81e32896e3e9b4cf5a2114a8c448db34d46cc24",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/locale/tr/ui/inventorywindow.py",
+    "bytes": 10335,
+    "sha1": "7ad3cfde059e9e3c7d4999ae4eed28fe53ad9068",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/locale/tr/ui/loadingwindow.py",
+    "bytes": 1031,
+    "sha1": "affa11907415019f7bff467e5e15d499ebb8f879",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/locale/tr/ui/loginwindow.py",
+    "bytes": 8065,
+    "sha1": "11211fe4bb9d5cfa6b124c04563166551be1ac91",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/locale/tr/ui/systemdialog.py",
+    "bytes": 5350,
+    "sha1": "eb212e27e8beb224ac8aaf00113d1458f08bb6f0",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/autoattackoptionwindow.py",
+    "bytes": 5486,
+    "sha1": "667e308f571ed94a10d89d3818238edf30b9cdb1",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/autohuntingrangewindow.py",
+    "bytes": 4720,
+    "sha1": "09dd858d25c40705b09326e96889780b8a2b55e6",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/autowindow.py",
+    "bytes": 10787,
+    "sha1": "63ef2ea83e336de81f4943af56b92a7637d0c4dd",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/battlepass.py",
+    "bytes": 2789,
+    "sha1": "83b3cc530e1b6467bcb52c526d3abde9844994a3",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/gameoptiondialog.py",
+    "bytes": 17685,
+    "sha1": "12ccd407feb7bc90e460ae281fc2662d3ec25a56",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/menuwindow.py",
+    "bytes": 1397,
+    "sha1": "7f9a4505458c4b3920d7de87ae42a3250c59179a",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/messengerwindow.py",
+    "bytes": 3936,
+    "sha1": "9eb533f7e65520a0d1bcd01fd7ce64948cd034bf",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/mobilehud.py",
+    "bytes": 6026,
+    "sha1": "ba1eb69c58b8a998a12fbe5d605dd9728d5f98ea",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/mobilekeypanel.py",
+    "bytes": 2539,
+    "sha1": "1a223d076644273795fa92580fb9fb2907d249e6",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/mobiletaskbar.py",
+    "bytes": 6872,
+    "sha1": "e3a7c8e8199d27f06ed261bcf79f37a8f0b5608b",
+    "verified": true
+  },
+  {
+    "path": "mobile_root/uiscript/shopdialog.py",
+    "bytes": 4470,
+    "sha1": "97a7cb2a14058c2653e6524b1f61aefd1bf444b3",
+    "verified": true
+  }
+]

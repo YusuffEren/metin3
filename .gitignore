@@ -1,0 +1,14 @@
+# Third-party tools, downloaded runtimes and temporary reverse-engineering state.
+/work/
+
+# The complete directory is preserved in repository-bundles as split TAR parts.
+# Keeping 56k binary files directly in Git/LFS would make clones impractical.
+/outputs/Metin2Mobil-full-v1791518086/
+
+# Windows reserved-name artifact and generated caches.
+/NUL
+**/__pycache__/
+*.py[cod]
+
+# Locally reassembled archive, if a user follows the restore instructions.
+/Metin2Mobil-full-v1791518086.tar

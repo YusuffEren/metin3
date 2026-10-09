@@ -1,0 +1,13 @@
+{
+  "dynamic_functions": 15401,
+  "categories": {
+    "other": 9746,
+    "graphics-ui": 1831,
+    "python-bindings": 1462,
+    "actor-character": 868,
+    "network": 597,
+    "gameplay": 555,
+    "pack-resource": 216,
+    "android-platform": 126
+  }
+}

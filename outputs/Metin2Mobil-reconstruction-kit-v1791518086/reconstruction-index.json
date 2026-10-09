@@ -1,0 +1,26 @@
+{
+  "input": "outputs/Metin2Mobil-native-pseudocode-v0.75.0/libsancak2client-selected.c",
+  "input_sha256": "02f0eae375792482be0f74acbdc4f3e3e5202eb751a035d107e0922a6d19911e",
+  "functions_indexed": 7978,
+  "category_counts": {
+    "network-protocol": 1019,
+    "python-native-api": 3185,
+    "gameplay-actor": 3464,
+    "graphics-resource": 1783,
+    "android-platform": 250
+  },
+  "python": {
+    "python_files": 311,
+    "dependency_edges": 1979,
+    "unique_imports": 191,
+    "native_or_external_modules": 48,
+    "native_api_calls": 1062,
+    "native_api_constants": 834,
+    "parse_errors": []
+  },
+  "notes": [
+    "Native files are reconstructed pseudocode, not the original C++ source.",
+    "A function may appear in more than one category.",
+    "Packet candidates are automatic leads; verified facts live in packet-catalog.csv."
+  ]
+}

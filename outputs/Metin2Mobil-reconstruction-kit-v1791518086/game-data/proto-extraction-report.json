@@ -1,0 +1,20 @@
+{
+  "item_proto": {
+    "version": 1,
+    "stride": 156,
+    "records": 6037,
+    "magic": "MCOZ",
+    "encrypted_size": 187168,
+    "compressed_size": 187143,
+    "decompressed_size": 941772
+  },
+  "mob_proto": {
+    "stride": 255,
+    "records": 1347,
+    "magic": "MCOZ",
+    "encrypted_size": 53784,
+    "compressed_size": 53758,
+    "decompressed_size": 343485,
+    "parsed_fields": "full 255-byte client layout"
+  }
+}

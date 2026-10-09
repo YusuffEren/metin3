@@ -1,0 +1,9 @@
+{
+  "python_files": 311,
+  "dependency_edges": 1979,
+  "unique_imports": 191,
+  "native_or_external_modules": 48,
+  "native_api_calls": 1062,
+  "native_api_constants": 834,
+  "parse_errors": []
+}

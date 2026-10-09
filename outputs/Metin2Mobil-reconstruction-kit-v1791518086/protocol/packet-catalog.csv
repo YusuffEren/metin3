@@ -1,0 +1,43 @@
+phase,direction,header_hex,total_bytes,name,layout,status,evidence_function,evidence_address
+handshake,S2C/C2S,FF,13,HANDSHAKE,"u8 header; u32 handshake; u32 time_ms; i32 delta",verified,CPythonNetworkStream::HandShakePhase,007f93d0
+any,S2C,2C,1,PING,"u8 header",verified,CPythonNetworkStream::RecvPingPacket,007f9674
+any,C2S,FE,1,PONG,"u8 header",verified,CPythonNetworkStream::RecvPingPacket,007f9674
+handshake,S2C/C2S,FB,261,KEY_AGREEMENT,"u8 header; u16 agreed_len; u16 data_len; u8 data[256]",verified,CPythonNetworkStream::RecvKeyAgreementPacket,007f9710
+handshake,S2C,FA,4,KEY_AGREEMENT_COMPLETED,"u8 header; u8 payload[3]",verified,CPythonNetworkStream::RecvKeyAgreementCompletedPacket,007f981c
+any,S2C,FD,2,PHASE,"u8 header; u8 phase (0 offline; 1 handshake; 2 login; 3 select; 4 loading; 5 game)",verified,CPythonNetworkStream::RecvPhasePacket,007f8710
+login,C2S,01,49,LOGIN,"u8 header; char login[31]; char password[17]",verified,CPythonNetworkStream::SendLoginPacket,007fa3e0
+login,C2S,6D,52,LOGIN_NEW,"u8 header; char login[31]; u32 login_key; u8 encrypt_key[16]",verified,CPythonNetworkStream::SendLoginPacketNew,007fa328
+login,C2S,09,50,DIRECT_ENTER,"u8 header; char login[31]; char password[17]; u8 slot",verified,CPythonNetworkStream::SendDirectEnterPacket,007fa494
+login,C2S,C9,6,RUNUP_MATRIX_ANSWER,"u8 header; char answer[5]",verified,CPythonNetworkStream::SendRunupMatrixAnswerPacket,007fa544
+login,C2S,CA,10,PASSPOD_ANSWER,"u8 header; char answer[9]",verified,CPythonNetworkStream::SendNEWCIBNPasspodAnswerPacket,007fa5d8
+login,C2S,6C,10,CHINA_MATRIX_CARD,"u8 header; char answer[9]",verified,CPythonNetworkStream::SendChinaMatrixCardPacket,007fa66c
+login,S2C,06,249,LOGIN_SUCCESS_3,"u8 header; three account character records and connector data",verified,CPythonNetworkStream::__RecvLoginSuccessPacket3,007f9c30
+login,S2C,20,329,LOGIN_SUCCESS_4,"u8 header; four account character records and connector data",verified,CPythonNetworkStream::__RecvLoginSuccessPacket4,007f9db4
+login,S2C,07,10,LOGIN_FAILURE,"u8 header; char status[9]",verified,CPythonNetworkStream::__RecvLoginFailurePacket,007f9f7c
+login,S2C,5A,2,EMPIRE,"u8 header; u8 empire",verified,CPythonNetworkStream::__RecvEmpirePacket,007fa00c
+login,S2C,74,9,MATRIX_CARD,"u8 header; u32 rows; u32 cols",verified,CPythonNetworkStream::__RecvChinaMatrixCardPacket,007fa06c
+login,S2C,C9,10,RUNUP_MATRIX_QUIZ,"u8 header; char quiz[9]",verified,CPythonNetworkStream::__RecvRunupMatrixQuizPacket,007fa11c
+login,S2C,CA,1,PASSPOD_REQUEST,"u8 header",verified,CPythonNetworkStream::__RecvNEWCIBNPasspodRequestPacket,007fa1ac
+login,S2C,CB,130,PASSPOD_FAILURE,"u8 header; payload[129]",verified,CPythonNetworkStream::__RecvNEWCIBNPasspodFailurePacket,007fa234
+login,S2C,76,5,LOGIN_KEY,"u8 header; u32 login_key",verified,CPythonNetworkStream::__RecvLoginKeyPacket,007fa2bc
+select,C2S,5A,2,SELECT_EMPIRE,"u8 header; u8 empire",verified,CPythonNetworkStream::SendSelectEmpirePacket,007fd0b8
+select,C2S,06,2,SELECT_CHARACTER,"u8 header; u8 slot",verified,CPythonNetworkStream::SendSelectCharacterPacket,007fd148
+select,C2S,05,10,DESTROY_CHARACTER,"u8 header; u8 slot; char private_code[8]",verified,CPythonNetworkStream::SendDestroyCharacterPacket,007fd1c8
+select,C2S,04,34,CREATE_CHARACTER,"u8 header; u8 slot; char name[24]; u16 job; u8 shape; u8 con; u8 int; u8 str; u8 dex",verified,CPythonNetworkStream::SendCreateCharacterPacket,007fd260
+select,C2S,6A,27,CHANGE_NAME,"u8 header; u8 slot; char name[25]",verified,CPythonNetworkStream::SendChangeNamePacket,007fd344
+select,S2C,08,65,CREATE_SUCCESS,"u8 header; u8 slot; account character record[63]",verified,CPythonNetworkStream::__RecvPlayerCreateSuccessPacket,007fab14
+select,S2C,09,2,CREATE_FAILURE,"u8 header; u8 reason",verified,CPythonNetworkStream::__RecvPlayerCreateFailurePacket,007fabe4
+select,S2C,0A,2,DESTROY_SUCCESS,"u8 header; u8 slot",verified,CPythonNetworkStream::__RecvPlayerDestroySuccessPacket,007fad28
+select,S2C,0B,1,DESTROY_FAILURE,"u8 header",verified,CPythonNetworkStream::__RecvPlayerDestroyFailurePacket,007faca0
+select,S2C,6B,30,CHANGE_NAME_RESULT,"u8 header; u32 player_id; char name[25]",verified,CPythonNetworkStream::__RecvChangeName,007fae00
+loading,C2S,0A,1,ENTER_GAME,"u8 header",verified,CPythonNetworkStream::SendEnterGame,007fd030
+loading,S2C,10,2041,PLAYER_POINTS,"u8 header; i64 points[255]",verified,CPythonNetworkStream::LoadingPhase,007faf48
+game,C2S,02,8,ATTACK,"u8 header; u8 type; u32 victim_vid; u8 check_a; u8 check_b",verified,CPythonNetworkStream::SendAttackPacket,007fd5c0
+game,C2S,0F,5,ITEM_PICKUP,"u8 header; u32 ground_item_vid",verified,CPythonNetworkStream::SendItemPickUpPacket,00804388
+game,C2S,3C,7,ITEM_USE_TO_ITEM,"u8 header; item_pos source[3]; item_pos target[3]",verified,CPythonNetworkStream::SendItemUseToItemPacket,008047c4
+game,C2S,0C,8,ITEM_DROP,"u8 header; item_pos[3]; u32 gold_or_count",verified,CPythonNetworkStream::SendItemDropPacket,0080487c
+game,C2S,14,10,ITEM_DROP_NEW,"u8 header; item_pos[3]; u32 gold_or_count; u16 count",verified,CPythonNetworkStream::SendItemDropPacketNew,0080492c
+game,C2S,15,4,ITEM_DELETE,"u8 header; item_pos[3]",verified,CPythonNetworkStream::SendItemDeletePacket,008049ec
+game,C2S,16,4,ITEM_SELL,"u8 header; item_pos[3]",verified,CPythonNetworkStream::SendItemSellPacket,00804a94
+game,C2S,0D,9,ITEM_MOVE,"u8 header; item_pos source[3]; item_pos target[3]; u16 count",verified,CPythonNetworkStream::SendItemMovePacket,00804b3c
+game,C2S,FD,67,CLIENT_VERSION,"u8 header; char executable[33]; char build[33]",verified,CPythonNetworkStream::SendClientVersionPacket,007fc9b8
